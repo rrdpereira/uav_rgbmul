@@ -1,0 +1,35 @@
+sudo apt-get install git-all
+sudo apt install ros-noetic-hector-gazebo
+sudo apt install ros-noetic-velodyne-description
+
+sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
+ros-noetic-rosserial-python ros-noetic-rosserial-client \
+ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
+ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+
+sudo apt install ros-noetic-dynamixel-sdk
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
+
+sudo apt-get install ros-noetic-cmake-modules \
+ros-noetic-velodyne-gazebo-plugins \
+python3-wstool \
+python3-catkin-tools \
+ros-noetic-ompl \
+ros-noetic-navfn \
+ros-noetic-dwa-local-planner \
+ros-noetic-costmap-2d \
+ros-noetic-teb-local-planner \
+ros-noetic-robot-self-filter \
+ros-noetic-pointcloud-to-laserscan \
+ros-noetic-ros-numpy
+
+sudo apt-get install ros-noetic-openslam-gmapping
+sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
+
+sudo apt-get install ros-noetic-kobuki ros-noetic-kobuki-core
+sudo apt-get install ros-noetic-kobuki-gazebo
